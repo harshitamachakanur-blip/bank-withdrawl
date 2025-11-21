@@ -1,8 +1,8 @@
 import sys
 if(sys.argv)==3:
     script_name=sys.argv[0]
-    amount=sys.argv[1]
-    withdraw=sys.argv[2]
+    amount=float(sys.argv[1])
+    withdraw=float(sys.argv[2])
     print("User given data")
 else:
     script_name=sys.argv[0]
